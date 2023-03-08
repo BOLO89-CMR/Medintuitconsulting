@@ -99,11 +99,14 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 140px 0 60px 0;
-  min-height: 30vh;
+  min-height: 70vh;
   position: relative;
+  /* background: url("../img/med-home.jpg"); */
+  background: url('../img/med-contact-bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
 }
 
 .breadcrumbs:before {
@@ -505,8 +508,10 @@ section {
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
-  background-size: cover;
+  background: url("../img/med-home.jpg");
+  background-position: right center;
+  background-size: contain;
+  background-repeat: no-repeat;
   position: relative;
   padding: 120px 0;
   z-index: 3;
@@ -764,7 +769,7 @@ section {
 
 .services-list .service-item .description {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -2196,4 +2201,11 @@ section {
   text-align: center;
   font-size: 13px;
   color: var(--color-secondary);
+}
+
+.p-font {
+  font-size: 20px;
+}
+
+.med-logo {
 }
